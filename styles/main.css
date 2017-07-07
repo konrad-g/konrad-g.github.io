@@ -1,13 +1,13 @@
 html, body {
 	width: 100%;
 	margin: 0;
-	position: fixed;
 }
 
 html {
 	padding: 0;	
 	height: 100%;
     overflow: hidden;
+    position: fixed;
 }
 
 body {
