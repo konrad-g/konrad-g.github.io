@@ -1,0 +1,109 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	position: fixed;
+}
+
+html {
+	padding: 0;	
+	height: 100%;
+    overflow: hidden;
+}
+
+body {
+	background: url(/images/wood-texture.jpg) left top repeat;
+	padding: 0 5px;
+	height: 100%;
+    overflow-y: scroll;
+}
+
+.main-card {
+	background-color: #FFF;
+    color: #333333;
+    min-height: 10px;
+    min-width: 10px;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 0 15px 0;
+    display: block;
+    border: 1px #676767 solid;
+    overflow: hidden;
+    text-align: left;
+    transition: box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-box-shadow: 2px 2px 1px 0px #3c3c3c;
+    -moz-box-shadow: 2px 2px 1px 0px #3c3c3c;
+    box-shadow: 2px 2px 1px 0px #3c3c3c;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.photo-info {
+    z-index: 30;
+    color: white;
+    position: relative;
+    text-align: center;
+    text-shadow: rgb(51, 51, 51) 2px 0px 0px, rgb(51, 51, 51) 1.75517px 0.958851px 0px, rgb(51, 51, 51) 1.0806px 1.68294px 0px, rgb(51, 51, 51) 0.141474px 1.99499px 0px, rgb(51, 51, 51) -0.832294px 1.81859px 0px, rgb(51, 51, 51) -1.60229px 1.19694px 0px, rgb(51, 51, 51) -1.97998px 0.28224px 0px, rgb(51, 51, 51) -1.87291px -0.701566px 0px, rgb(51, 51, 51) -1.30729px -1.5136px 0px, rgb(51, 51, 51) -0.421592px -1.95506px 0px, rgb(51, 51, 51) 0.567324px -1.91785px 0px, rgb(51, 51, 51) 1.41734px -1.41108px 0px, rgb(51, 51, 51) 1.92034px -0.558831px 0px;
+}
+
+.photo {
+    width: 100%;
+    position: relative;
+}
+
+.description {
+	text-align: center;
+	font-weight: 500;
+}
+
+.info {
+
+}
+
+.btn-center {
+	display: block;
+	width: 125px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+/* Tablet */
+@media all and (min-width: 451px) {
+
+    .photo-info {
+        margin-top: -80px;
+        margin-bottom: 21px;
+    }
+
+
+    .photo-name {
+        font-size: 27px;
+    }
+        
+    .photo-profession {
+        font-size: 22px;
+    }
+}
+
+/* Phone */
+@media all and (max-width: 450px) {
+
+    .photo-info {
+        margin-top: -70px;
+        margin-bottom: 22px;
+    }
+
+    .photo-name {
+        font-size: 22px;
+    }
+        
+    .photo-profession {
+        font-size: 19px;
+    }
+}

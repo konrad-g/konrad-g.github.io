@@ -1,0 +1,24 @@
+{
+  "name": "konradg.com",
+  "version": "1.0.0",
+  "description": "Page about Konrad Gadzinowski.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "2.0.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2"
+  },
+  "author": "Konrad Gadzinowski <contact@konradg.com>",
+  "license": "MIT"
+}

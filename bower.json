@@ -1,0 +1,21 @@
+{
+  "name": "konradg.com",
+  "homepage": "https://konradg.com",
+  "authors": [
+    "Konrad Gadzinowski <contact@konradg.com>"
+  ],
+  "description": "Page about Konrad Gadzinowski",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

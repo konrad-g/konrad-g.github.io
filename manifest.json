@@ -1,0 +1,41 @@
+{
+  "name": "Konrad Gadzinowski",
+  "icons": [{
+        "src": "/images/ico/icon-192.png",
+        "sizes": "192x192"
+      }, {
+        "src": "/images/ico/icon-128.png",
+        "sizes": "128x128"
+      }, {
+        "src": "/images/ico/icon-152.png",
+        "sizes": "152x152"
+      }, {
+        "src": "/images/ico/icon-144.png",
+        "sizes": "144x144"
+      }, {
+        "src": "/images/ico/icon-120.png",
+        "sizes": "120x120"
+      }, {
+        "src": "/images/ico/icon-114.png",
+        "sizes": "114x114"
+      }, {
+        "src": "/images/ico/icon-76.png",
+        "sizes": "76x76"
+      }, {
+        "src": "/images/ico/icon-72.png",
+        "sizes": "72x72"
+      }, {
+        "src": "/images/ico/icon-57.png",
+        "sizes": "57x57"
+      }],
+  "description": "Konrad Gadzinowski",
+  "developer": {
+    "name": "Konrad Gadzinowski",
+    "url": "https://konradg.com"
+  },
+  "default_locale": "en",
+  "launch_path": "/",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
